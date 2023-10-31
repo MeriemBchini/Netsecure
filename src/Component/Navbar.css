@@ -1,0 +1,40 @@
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding:8px;
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    position: centre;
+    top: 8px;
+    left:200 px;
+    font-size: 18px;
+}
+
+h2{
+    color: aliceblue;
+}
+li a:hover {
+    background-color: #310202;
+  }
+a.Home{
+    background-color: #310202;
+}
+li.premier{
+    display:inline-block ;
+
+}
+li.premier{
+    right:20px
+}
+ul.premier{
+   list-style-type: none;
+   position: absolute;
+    right:150px;
+    top:50px;
+}
