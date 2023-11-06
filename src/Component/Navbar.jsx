@@ -11,9 +11,9 @@ function Navbar ()  {
       <div>
 
      
-      <h2>NetworkCheck</h2>
+      <h2 className='name'>NetworkCheck</h2>
       <ul>
-      <li><a href='/Home' className='Homee'> Home</a></li> 
+      <li><a href='/' className='Homee'> Home</a></li> 
       <li><a href='/About'>About</a></li>
       <li><a href='/Contact' >Contact</a></li>
       </ul>
