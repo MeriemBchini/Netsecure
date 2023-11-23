@@ -9,6 +9,6 @@ export default function QSSI() {
       <p>Internet user security audit:</p>
       <p><strong>Does the computer network have any equipment that can be used to filter visited URLs, such as a proxy server or a firewall?</strong></p>
       </div>
-    </div>
-  )
+    </div> 
+     )
 }
