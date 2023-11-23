@@ -1,0 +1,134 @@
+[{
+    "module": {
+        "name": "1/Internet",
+        "title": "Internet user security audit:",
+        "questionList": [
+            {
+            "principalQuestion": "Does the computer network have any equipment that can be used to filter visited URLs, such as a proxy server or a firewall?",
+            "secondaryQuestion": [
+                "Does the computer network have any equipment that can be used to filter visited URLs, such as a proxy server or a firewall?",
+                "Does it have blocked risk categories such as Phishing, Command and Control, Malware, Hacking, Proxy, Adult, etc.?",
+                "Is it able to authenticate users (AD pairing, Kerberos, captive portal, etc.)?",
+                "Are there logs of visited URLs that are retained and analyzable (usage report, etc.)?"
+        ]},
+           { "principalQuestion": "Does the filtering equipment have application detection capabilities?"},
+            
+
+            {"principalQuestion": "Does the network have malware detection capabilities?",
+            "secondaryQuestion": [    "Is the detection system enabled for the primary propagation vectors (HTTP, SMTP, IMAP, POP, FTP, SMB, etc.)?",
+                "Does the analysis system support a variety of file formats (EXE, DOC, XLS, PDF, APK, JAR, archives, Flash, etc.)?",
+                "Is the equipment capable of SSL decryption, and is it enabled?",
+                "Bonus: Is the solution capable of dynamic file analysis, rather than static analysis based on a hash?"]},
+            {"principalQuestion": "Does the network have intrusion detection capabilities?"}
+        ]
+    },
+    "module1":{
+        "name": "2/DMZ:",
+        "title": "If services are published to the internet, it is important to ensure information security against both opportunistic and targeted attacks.",
+        "questionList": [{
+            "principalQuestion":"Is a demilitarized zone (DMZ) in place to isolate internet-facing servers from the LAN?"},
+            {"principalQuestion":"Are open ports on the internet identified, limited, and necessary?"},
+            {"principalQuestion":"Is a strict IPS filter in place on incoming traffic? Or a Web Application Firewall for a web application?"}
+
+                ]
+    },
+    "module2":{
+        "name": "3/LAN segmentation:",
+        "title": "A ransomware attack like Wannacry or any other cyberattack can happen even if you think you are safe. Therefore, it is essential to limit the impact of an intrusion by network segmentation. Regardless of the scenario, the intrusion must be limited to a reasonable percentage of workstations and servers in order not to jeopardize your business.",
+        "questionList":[{
+            "principalQuestion":  "Is there a strict segmentation between infrastructure support servers and other servers and users?"},
+            {"principalQuestion":"Is there segmentation or fine-grained filtering rules, or even an IPS between different user groups (standard, VIPN), between users and business servers, between business server groups, or between sites?" }
+
+        ]
+
+    },
+    "module3":{
+        "name":"4/ AUTHENTICATION",
+        "title":" Access management is at the heart of security issues. It is about facilitating authorized access to different services while protecting them from unauthorized access.",
+        "questionList":[
+            {"principalQuestion": "Do users easily remember their passwords without writing them down and access different services?"},
+            {"principalQuestion":"Are authentications centralized?"},
+            {"principalQuestion":"Is the number of passwords to remember reasonable? Do users who need to have many different identifiers (external services not managed by the IT department) have a robust password manager?"},
+            {"principalQuestion":"Do critical services and external access have strong authentication?"},
+            {"principalQuestion":"Are former users disabled?"}
+        ]},
+    "module4":{
+        "name":"5/UPDATE",
+        "title":" It is possible to consider that any software system has undiscovered vulnerabilities. However, publishers are making increasing efforts to find vulnerabilities in their own software. They even offer bounties in case of discovery by a third party! Therefore, there are regularly security updates for software components whose exploit codes are known or will become known",
+        "questionList":[
+            {"principalQuestion":"Is there a strategy for updating operating systems (clients and servers)?"},
+            {"principalQuestion":"Is there a software update strategy?"},
+            {"principalQuestion":"Is there an inventory of software that cannot be updated and has vulnerabilities, and is there a strategy to mitigate the risk posed by this software?"},
+            {"principalQuestion":"Are all the software components of a system known and understood?"}
+        ]},
+    "module5":{
+        "name": "6/ANTIVIRUS AND MORE",
+        "title": "Today, an antivirus is a security tool designed to protect workstations and servers. It often integrates a suite of security tools such as antivirus, behavioral analysis, IPS, sandbox, anti-spam, anti-phishing, web page analysis, and workstation audit.",
+        "questionList":[
+            {"principalQuestion":"Are workstations and servers protected against known malware?"},
+            {"principalQuestion":"Does the deployed solution have a suite of security tools that enhance its effectiveness beyond the known signature base?"},
+            {"principalQuestion":"Does a centralized management console allow for the deployment of security policies and other advanced functions (auditing, monitoring, software deployment, etc.)?"}
+        ]
+
+    },
+    "module6":{
+        "name":"7/Encryption",
+        "title":"In the event of a loss or theft of a device (phone, laptop), encryption is the barrier that helps to limit the loss to a material cost. The same is true in a network, point-to-point encryption is what prevents data interception and impersonation.",
+        "questionList":[
+            {"principalQuestion":"Are all mobile devices that potentially carry company data or credentials encrypted?"},
+            {"principalQuestion":"Are remote access connections encrypted?"},
+            {"principalQuestion":"Are business-critical access to the company encrypted?"}
+        ]
+    },
+    "module7":{
+        "name":"8/Backup / Disaster Recovery",
+        "title":"Backup is classified as 'recovery' and not 'prevention' or 'protection'. It is obviously one of the solutions that allows the company to resume its activity in the event of a major incident.",
+        "questionList":[
+            {"principalQuestion":"Are the most important data well included in the backup sets?"},
+            {"principalQuestion":"Are the RTO (recovery time objective, i.e., downtime) and RPO (recovery point objective, i.e., data loss) in line with the requirements?"},
+            {"principalQuestion":"Is the backup monitored?"},
+            {"principalQuestion":"Is the backup working? Can we restore different types of data?"},
+            {"principalQuestion":"Is the backup outsourced?"},
+            {"principalQuestion":"Is there a Business Continuity Plan (BCP) for all probable scenarios? Are the RTO and RPO in line with the requirements?"}
+        ]},
+    "module8":{
+        "name":"9/Bring Your Own Device (BYOD)",
+        "title":"With the increasing number of cloud-based access and mobility, it is common for users to use their personal devices for work-related activities. However, this practice poses a risk, as the device is not controlled and secured while it has access to and contains company data.",
+        "questionList":[
+            {"principalQuestion":"If BYOD is allowed, is it regulated?"},
+            {"principalQuestion":"Is it impossible to prevent unauthorized or uncontrolled BYOD usage?"}
+        ]  
+    },
+    "module9":{
+        "name":"10/Information Security Policy",
+        "title":"A security policy is a document (or set of documents) that outlines the organization's security rules.",
+        "questionList":[
+            {"principalQuestion":"Do you have a security policy?"},
+            {"principalQuestion":"Does it cover all the important topics?"},
+            {"principalQuestion":"Is it applicable in real-world conditions?"},
+            {"principalQuestion":"Are the affected parties aware of its existence?"}
+        ]
+    },
+    "module10":{
+        "name":"11/SENSIBILISATION",
+        "title":" There is no security update for humans. However, with awareness, it is possible to reduce human risk and gain security.",
+        "questionList":[
+            {"principalQuestion":"Are users aware of the cybersecurity risks (phishing, malware, data breaches, etc.)?"},
+            {"principalQuestion":"Are there regular awareness activities and reminders?"}, 
+            {"principalQuestion":"Are new hires made aware of the risk?"}
+        ]
+    },
+    "module11":{
+        "name":"12/provider",
+        "title":" Although providers are not directly part of an organization's information system, they can still be a weak link in security.",
+        "questionList":[
+            {"principalQuestion":"Have the providers ratified your security policy?"},
+            {"principalQuestion":"Do the providers have data or access from their own hardware? If so, have they been audited or have they demonstrated their security level to be in line with your information system?"}
+        ]
+    }
+    
+    
+
+
+}]
+

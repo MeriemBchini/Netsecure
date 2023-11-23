@@ -1,32 +1,18 @@
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    background-color: #faf8f8;
-  }
-  
-  .not {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000;
-  }
-  
-  .internet, .DMZ,.LAN_segmentation,.AUTHENTICATION,.UPDATE,.ANTIVIRUS_AND_MORE,.Encryption,.BackupDisasterRecovery,.BringYourOwnDeviceBYOD,.InformationSecurityPolicy,.SENSIBILISATION,.provider{
-    border: 1px solid #101010;
     padding: 20px;
   }
-  
-  .internet h3 {
-    margin-top: 0;
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:  rgb(191, 111, 0);
   }
-  
-  .button {
-    background-color: #000;
-    color: #090909;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:rgb(248, 208, 155);
   }
-  
-  .button:hover {
-    background-color: #0d0d0d;
+  strong{
+    color: aliceblue;
   }
