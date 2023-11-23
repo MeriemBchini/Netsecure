@@ -1,5 +1,5 @@
-[{
-    "module": {
+[
+    {
         "name": "1/Internet",
         "title": "Internet user security audit:",
         "questionList": [
@@ -22,7 +22,7 @@
             {"principalQuestion": "Does the network have intrusion detection capabilities?"}
         ]
     },
-    "module1":{
+    {
         "name": "2/DMZ:",
         "title": "If services are published to the internet, it is important to ensure information security against both opportunistic and targeted attacks.",
         "questionList": [{
@@ -32,7 +32,7 @@
 
                 ]
     },
-    "module2":{
+    {
         "name": "3/LAN segmentation:",
         "title": "A ransomware attack like Wannacry or any other cyberattack can happen even if you think you are safe. Therefore, it is essential to limit the impact of an intrusion by network segmentation. Regardless of the scenario, the intrusion must be limited to a reasonable percentage of workstations and servers in order not to jeopardize your business.",
         "questionList":[{
@@ -42,7 +42,7 @@
         ]
 
     },
-    "module3":{
+    {
         "name":"4/ AUTHENTICATION",
         "title":" Access management is at the heart of security issues. It is about facilitating authorized access to different services while protecting them from unauthorized access.",
         "questionList":[
@@ -52,7 +52,7 @@
             {"principalQuestion":"Do critical services and external access have strong authentication?"},
             {"principalQuestion":"Are former users disabled?"}
         ]},
-    "module4":{
+    {
         "name":"5/UPDATE",
         "title":" It is possible to consider that any software system has undiscovered vulnerabilities. However, publishers are making increasing efforts to find vulnerabilities in their own software. They even offer bounties in case of discovery by a third party! Therefore, there are regularly security updates for software components whose exploit codes are known or will become known",
         "questionList":[
@@ -61,7 +61,7 @@
             {"principalQuestion":"Is there an inventory of software that cannot be updated and has vulnerabilities, and is there a strategy to mitigate the risk posed by this software?"},
             {"principalQuestion":"Are all the software components of a system known and understood?"}
         ]},
-    "module5":{
+    {
         "name": "6/ANTIVIRUS AND MORE",
         "title": "Today, an antivirus is a security tool designed to protect workstations and servers. It often integrates a suite of security tools such as antivirus, behavioral analysis, IPS, sandbox, anti-spam, anti-phishing, web page analysis, and workstation audit.",
         "questionList":[
@@ -71,7 +71,7 @@
         ]
 
     },
-    "module6":{
+    {
         "name":"7/Encryption",
         "title":"In the event of a loss or theft of a device (phone, laptop), encryption is the barrier that helps to limit the loss to a material cost. The same is true in a network, point-to-point encryption is what prevents data interception and impersonation.",
         "questionList":[
@@ -80,7 +80,7 @@
             {"principalQuestion":"Are business-critical access to the company encrypted?"}
         ]
     },
-    "module7":{
+    {
         "name":"8/Backup / Disaster Recovery",
         "title":"Backup is classified as 'recovery' and not 'prevention' or 'protection'. It is obviously one of the solutions that allows the company to resume its activity in the event of a major incident.",
         "questionList":[
@@ -91,7 +91,7 @@
             {"principalQuestion":"Is the backup outsourced?"},
             {"principalQuestion":"Is there a Business Continuity Plan (BCP) for all probable scenarios? Are the RTO and RPO in line with the requirements?"}
         ]},
-    "module8":{
+    {
         "name":"9/Bring Your Own Device (BYOD)",
         "title":"With the increasing number of cloud-based access and mobility, it is common for users to use their personal devices for work-related activities. However, this practice poses a risk, as the device is not controlled and secured while it has access to and contains company data.",
         "questionList":[
@@ -99,7 +99,7 @@
             {"principalQuestion":"Is it impossible to prevent unauthorized or uncontrolled BYOD usage?"}
         ]  
     },
-    "module9":{
+    {
         "name":"10/Information Security Policy",
         "title":"A security policy is a document (or set of documents) that outlines the organization's security rules.",
         "questionList":[
@@ -109,7 +109,7 @@
             {"principalQuestion":"Are the affected parties aware of its existence?"}
         ]
     },
-    "module10":{
+    {
         "name":"11/SENSIBILISATION",
         "title":" There is no security update for humans. However, with awareness, it is possible to reduce human risk and gain security.",
         "questionList":[
@@ -118,7 +118,7 @@
             {"principalQuestion":"Are new hires made aware of the risk?"}
         ]
     },
-    "module11":{
+    {
         "name":"12/provider",
         "title":" Although providers are not directly part of an organization's information system, they can still be a weak link in security.",
         "questionList":[
@@ -127,8 +127,5 @@
         ]
     }
     
-    
-
-
-}]
+    ]
 
