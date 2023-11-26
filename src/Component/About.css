@@ -16,3 +16,31 @@
   strong{
     color: aliceblue;
   }
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .yes {
+    background-color: white;
+    color: rgb(2, 2, 2);
+  }
+  
+  .no {
+    background-color: white;
+    color: rgb(6, 5, 5);
+  }
+  .yes.selected {
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow for selected 'YES' */
+  }
+  
+  .no.selected {
+    background-color: rgb(228, 14, 14);
+    color: white;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Red shadow for selected 'NO' */
+  }
