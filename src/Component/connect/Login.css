@@ -1,0 +1,75 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background: #ffffffd8;
+    padding-bottom: 0px ;
+    font-family: 'Trebuchet MS';
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+   }
+   
+ .header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 9px;
+   width: 100%;
+   margin-top: 30px;
+   color: linear-gradient(#334667,rgb(63, 63, 97));
+   font-size: 48px;
+   font-weight: 700;
+ }
+ 
+ 
+ .inputs{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+ }
+ 
+ .input{
+   display: flex;
+   align-items: center;
+   margin: auto;
+   width: 400px;
+   height: 40px;
+   background: rgba(189, 185, 185, 0.759);
+   border-radius: 6px;
+   font-family: 'Trebuchet MS';
+ 
+ }
+ 
+ .input input{
+   height: 20px;
+   width: 400px;
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #797979;
+   font-size: 19px;
+ }
+ 
+ .submits {
+ display: flex;
+ gap: 30px;
+ margin: 60px auto;
+ width: 280px;
+ }
+ 
+ .submit button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Trebuchet MS';
+ color:  #ffffffd8;
+ background-color: #334667;
+ border-radius: 30px;
+ padding: 10px 45px ;
+ font-size: 15px;
+ font-weight: 500;
+ 
+ }

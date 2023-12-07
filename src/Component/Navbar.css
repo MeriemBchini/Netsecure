@@ -6,7 +6,7 @@ a{
     text-decoration: none;
     display: block;
     padding:8px;
-    color: aliceblue;
+    color: rgb(242, 241, 241);
 }
 ul{
     list-style-type: none;
@@ -17,16 +17,16 @@ ul{
 }
 
 h2.name{
-    color: aliceblue;
+    color: rgb(255, 253, 253);
     font-family: Arial, sans-serif;
     
 
 }
 li a:hover {
-    background-color: #310202;
+    background-color: rgb(247, 144, 66);
   }
 a.Homee{
-    background-color: #310202;
+    background-color: rgb(247, 144, 66);
 }
 li.premier{
     display:inline-block ;

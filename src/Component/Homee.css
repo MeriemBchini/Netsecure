@@ -9,13 +9,14 @@
     border: 0px solid #000000; 
     padding: 50px; 
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.956);
-    color: aliceblue;
+    color: rgb(231, 241, 241);
+
 
 }
 
 p{
     
-    color:rgb(255, 255, 255);
+    color:beige;
     width:50%;
     margin: 50px;
     margin-top: 150px;
@@ -29,5 +30,6 @@ img{
     top: 200px;
     right:150px;
     width:350px ;
-
+    border-radius: 10px;
+    box-shadow: 0 0 20px 20px rgba(13, 24, 27, 0.3);
 }

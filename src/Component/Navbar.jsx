@@ -18,7 +18,7 @@ function Navbar ()  {
       <li><a href='/Contact' >Contact</a></li>
       </ul>
       <ul className='premier'>
-      <li ><a href='/sign in' className='log'>sign in</a></li>
+      <li ><a href='/signup' className='log'>sign up</a></li>
       <li ><a href='/login' className='log'>login</a></li>
       </ul>
       
